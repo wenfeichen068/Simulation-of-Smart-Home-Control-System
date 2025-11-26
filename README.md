@@ -39,10 +39,10 @@
 - 无需额外依赖（使用标准库）
 
 ### 运行步骤
-1. 下载 `smart_home5.py` 文件
+1. 下载 `Simulation_of_Smart_Home_Control_System.py` 文件
 2. 在终端中运行：
    ```bash
-   python smart_home5.py
+   Simulation_of_Smart_Home_Control_System.py
    ```
 
 ## 使用说明
