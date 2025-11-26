@@ -1,0 +1,69 @@
+{
+    "is_encrypted": false,
+    "users": {
+        "admin": {
+            "pass": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+            "role": "admin"
+        },
+        "user1": {
+            "pass": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+            "role": "user"
+        }
+    },
+    "devices": [
+        {
+            "id": "light_living",
+            "name": "客厅主灯",
+            "owner": "admin",
+            "type": "Light",
+            "status": "OFF",
+            "shared_users": [
+                "user1"
+            ],
+            "brightness": 80
+        },
+        {
+            "id": "ac_master",
+            "name": "主卧空调",
+            "owner": "admin",
+            "type": "AirConditioner",
+            "status": "ON",
+            "shared_users": [
+                "admin",
+                "user1"
+            ],
+            "temperature": 26
+        },
+        {
+            "id": "curtain_study",
+            "name": "书房窗帘",
+            "owner": "admin",
+            "type": "Curtain",
+            "status": "OFF",
+            "shared_users": [
+                "user1"
+            ],
+            "open_pct": 50
+        },
+        {
+            "id": "cam_gate",
+            "name": "大门监控",
+            "owner": "user1",
+            "type": "Camera",
+            "status": "OFF",
+            "shared_users": [
+                "admin"
+            ],
+            "angle": 90
+        },
+        {
+            "id": "light_bedroom",
+            "name": "卧室主灯",
+            "owner": "admin",
+            "type": "Light",
+            "status": "ON",
+            "shared_users": [],
+            "brightness": 50
+        }
+    ]
+}
